@@ -28,7 +28,7 @@ The following parameters are crucial:
 * nl<>: [the number of layers in block A, B, C](https://www.linkedin.com/in/bert-moons-41867143/)
 * nf<>: [the number of filters in block A, B, C](https://www.linkedin.com/in/bert-moons-41867143/)
 
-***  
+## Examples 
 * This is how to train a 4-bit full qnn on CIFAR-10:
 
   ./train.sh config_CIFAR-10 -o lr=0.01 wbits=4 abits=4 network_type='full-qnn'
