@@ -47,7 +47,7 @@ print('setting up the network and creating callbacks\n')
 
 early_stop = EarlyStopping(monitor='loss', min_delta=0.001, patience=10, mode='min', verbose=1)
 checkpoint = ModelCheckpoint(cf.out_wght_path, monitor='val_acc', verbose=1, save_best_only=True, mode='max', period=1)
-tensorboard = TensorBoard(log_dir='./logs/yolo/' + str(cf.tensorboard_name), histogram_freq=0, write_graph=True, write_images=False)
+tensorboard = TensorBoard(log_dir='./logs/' + str(cf.tensorboard_name), histogram_freq=0, write_graph=True, write_images=False)
 
 print('loading data\n')
 
