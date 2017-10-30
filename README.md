@@ -19,7 +19,6 @@ This repo includes toy examples for CIFAR-10 and MNIST.
 Training can be done by running the following, -o overrides parameters in the <config_file>:
   ./train.sh <config_file> -o <override parameters>
   
-*** 
 The following parameters are crucial:
 * network_type: 'float', 'qnn', 'full-qnn', 'bnn', 'full-bnn'
 * wbits, abits: the number of bits used for weights and activations
