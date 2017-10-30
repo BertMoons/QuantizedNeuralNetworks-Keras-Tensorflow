@@ -31,26 +31,26 @@ The following parameters are crucial:
 ***  
 * This is how to train a 4-bit full qnn on CIFAR-10:
 
-⋅⋅⋅./train.sh config_CIFAR-10 -o lr=0.01 wbits=4 abits=4 network_type='full-qnn'
+  ./train.sh config_CIFAR-10 -o lr=0.01 wbits=4 abits=4 network_type='full-qnn'
   
 * This is how to train a qnn with 4-bit weights and floating point activations on CIFAR-10:
 
-⋅⋅⋅./train.sh config_CIFAR-10 -o lr=0.01 wbits=4 network_type='qnn'
+  ./train.sh config_CIFAR-10 -o lr=0.01 wbits=4 network_type='qnn'
   
 * This is how to train a BinaryNet on CIFAR-10:
 
-⋅⋅⋅./train.sh config_CIFAR-10 -o lr=0.01 network_type='full-bnn'
+  ./train.sh config_CIFAR-10 -o lr=0.01 network_type='full-bnn'
   
 *** 
 The included networks have parametrized sizes and are split into three blocks (A-B-C), each with a number of layers (nl) and a number of filters per layer (nf).
 
 * This is how to train a small 2-bit network on MNIST:
 
-⋅⋅⋅./train.sh config_MNIST -o nla=1 nfa=64 nlb=1 nfb=64 nlc=1 nfc=64 wbits=2 abits=2 network_type='full-qnn'
+  ./train.sh config_MNIST -o nla=1 nfa=64 nlb=1 nfb=64 nlc=1 nfc=64 wbits=2 abits=2 network_type='full-qnn'
   
 * This is how to train a large 8-bit network on CIFAR-10:
 
-⋅⋅⋅./train.sh config_CIFAR-10 -o nla=3 nfa=256 nlb=3 nfb=256 nlc=3 nfc=256 wbits=8 abits=8 network_type='full-qnn'
+  ./train.sh config_CIFAR-10 -o nla=3 nfa=256 nlb=3 nfb=256 nlc=3 nfc=256 wbits=8 abits=8 network_type='full-qnn'
 
 
 
