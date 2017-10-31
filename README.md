@@ -10,8 +10,11 @@ This code is based on a [lasagne/theano](https://github.com/MatthieuCourbariaux/
 Running this code requires:
 1. [Tensorflow](https://www.tensorflow.org/install/)
 2. [Keras 2.0](https://keras.io/)
+3. [pylearn2](http://deeplearning.net/software/pylearn2/) + the correct PYLEARN2_DATA_PATH in ./personal_config/shell_source.sh
 3. A GPU with recent versions of [CUDA and CUDNN](https://developer.nvidia.com/cudnn)
 4. Correct paths in ./personal_config/shell_source.sh
+
+Make sure your backend='tensorflow' and image_data_format='channels_last' in the ~/.keras/keras.json file.
 
 ## Training your own QNN
 
