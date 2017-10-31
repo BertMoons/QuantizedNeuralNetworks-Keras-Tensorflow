@@ -20,12 +20,12 @@ kernel_regularizer=0.
 activity_regularizer=0.
 
 # width and depth
-nla=2
+nla=1
 nfa=64
-nlb=3
-nfb=128
-nlc=3
-nfc=128
+nlb=1
+nfb=64
+nlc=1
+nfc=64
 
 #learning rate decay, factor => LR *= factor
 decay_at_epoch = [0, 25, 80 ]
