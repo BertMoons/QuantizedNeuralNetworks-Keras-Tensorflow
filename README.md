@@ -19,8 +19,11 @@ Make sure your backend='tensorflow' and image_data_format='channels_last' in the
 ## Training your own QNN
 
 This repo includes toy examples for CIFAR-10 and MNIST.
-Training can be done by running the following: -o overrides parameters in the <config_file>:
+Training can be done by running the following: 
+
   ./train.sh <config_file> -o <override_parameters>
+
+-o overrides parameters in the <config_file>.
   
 The following parameters are crucial:
 * network_type: 'float', 'qnn', 'full-qnn', 'bnn', 'full-bnn'
