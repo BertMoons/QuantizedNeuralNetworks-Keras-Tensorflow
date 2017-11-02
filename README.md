@@ -2,7 +2,7 @@
 
 ## Introduction
 Train your own __Quantized Neural Networks (QNN)__ - networks trained with quantized weights and activations - in __Keras / Tensorflow__.
-If you use this code, please cite [B.Moons et al. "Minimum Energy Quantized Neural Networks", Asilomar Conference on Signals, Systems and Computers, 2017](https://www.researchgate.net/publication/320775013_Presentation_on_Minimum_Energy_Quantized_Neural_Networks_Asilomar_2017).
+If you use this code, please cite "B.Moons et al. "Minimum Energy Quantized Neural Networks", Asilomar Conference on Signals, Systems and Computers, 2017". Take a look at our [presentation](https://www.researchgate.net/publication/320775013_Presentation_on_Minimum_Energy_Quantized_Neural_Networks_Asilomar_2017) or at the paper on [arxiv](https://arxiv.org/abs/1711.00215).
 
 This code is based on a [lasagne/theano](https://github.com/MatthieuCourbariaux/BinaryNet) and a [Keras/Tensorflow](https://github.com/DingKe/BinaryNet) version of [BinaryNet](https://papers.nips.cc/paper/6573-binarized-neural-networks).
 
